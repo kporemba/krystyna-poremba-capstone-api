@@ -8,7 +8,7 @@ exports.seed = async function (knex) {
   await knex("product_details").insert([
     {
       id: 1,
-      product_name: "Mushroom Bag Charms",
+      product_name: "Mushroom Bag Charm",
       category: "Accessories",
       price: "$10.99",
       description:
@@ -46,13 +46,13 @@ exports.seed = async function (knex) {
       description:
         "Elevate your beverage experience with our charming crochet drink carrier, meticulously handcrafted to snugly hold your favorite drinks while adding a touch of artisanal flair to your outings. Perfect for picnics, beach days, or simply enjoying a stroll, this carrier combines practicality with timeless style.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
+        "http://localhost:8080/images/product_images/3_primary.jpeg",
       second_image:
-        "http://localhost:8080/images/product_images/x_secondary1.jpeg",
-      third_image:
-        "http://localhost:8080/images/product_images/x_secondary2.jpeg",
-      fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/3_secondary1.jpeg",
+      // third_image:
+      //   "http://localhost:8080/images/product_images/x_secondary2.jpeg",
+      // fourth_image:
+      //   "http://localhost:8080/images/product_images/x_secondary3.jpeg",
     },
     {
       id: 4,
@@ -78,13 +78,13 @@ exports.seed = async function (knex) {
       description:
         "Add a whimsical touch to your home decor with our adorable crocheted balloon dog, meticulously crafted with vibrant yarns and intricate detailing to capture the playful spirit of the classic inflatable. Perfect for both children and adults alike, this charming creation brings a pop of color and joy to any space.",
       primary_image:
-        "http://localhost:8080/images/product_images/1_primary.jpeg",
+        "http://localhost:8080/images/product_images/5_primary.jpeg",
       second_image:
-        "http://localhost:8080/images/product_images/x_secondary1.jpeg",
+        "http://localhost:8080/images/product_images/5_secondary1.jpeg",
       third_image:
-        "http://localhost:8080/images/product_images/x_secondary2.jpeg",
-      fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/5_secondary2.jpeg",
+      // fourth_image:
+      //   "http://localhost:8080/images/product_images/x_secondary3.jpeg",
     },
     {
       id: 6,
@@ -94,19 +94,19 @@ exports.seed = async function (knex) {
       description:
         "Protect your laptop with this stylish and practical laptop sleeve. Popcorn stitches protect your laptop from bumps and scratches.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
+        "http://localhost:8080/images/product_images/6_primary.jpeg",
       second_image:
-        "http://localhost:8080/images/product_images/x_secondary1.jpeg",
+        "http://localhost:8080/images/product_images/6_secondary1.jpeg",
       third_image:
-        "http://localhost:8080/images/product_images/x_secondary2.jpeg",
-      fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/6_secondary2.jpeg",
+      // fourth_image:
+      //   "http://localhost:8080/images/product_images/x_secondary3.jpeg",
     },
     {
       id: 7,
       product_name: "Winter Toque",
       category: "Hats",
-      price: "$",
+      price: "$25.00",
       description:
         "Stay cozy and stylish through the cold season with our handcrafted crocheted winter toque, expertly made with soft, insulating yarns to keep you warm while showcasing intricate stitching for a touch of artisanal charm. Embrace comfort and fashion effortlessly with this essential accessory for chilly days.",
       primary_image:
@@ -190,13 +190,13 @@ exports.seed = async function (knex) {
       description:
         "Carry your essentials in style with our crocheted crescent bag, a chic and versatile accessory designed to complement any outfit. Handcrafted with care and featuring a unique crescent shape, this bag offers both functionality and fashion-forward flair for the modern trendsetter.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
+        "http://localhost:8080/images/product_images/12_primary.jpeg",
       second_image:
         "http://localhost:8080/images/product_images/12_secondary1.jpeg",
       third_image:
         "http://localhost:8080/images/product_images/12_secondary2.jpeg",
       fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/12_secondary3.jpeg",
     },
     {
       id: 13,
@@ -206,13 +206,13 @@ exports.seed = async function (knex) {
       description:
         "Make a statement with our crocheted granny square pattern bag, blending vintage charm with contemporary style. Handcrafted with precision and featuring a classic granny square motif, this bag offers both bohemian flair and practicality for carrying your everyday essentials.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
-      second_image:
-        "http://localhost:8080/images/product_images/x_secondary1.jpeg",
-      third_image:
-        "http://localhost:8080/images/product_images/x_secondary2.jpeg",
-      fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/13_primary.jpeg",
+      //   second_image:
+      //     "http://localhost:8080/images/product_images/x_secondary1.jpeg",
+      //   third_image:
+      //     "http://localhost:8080/images/product_images/x_secondary2.jpeg",
+      //   fourth_image:
+      //     "http://localhost:8080/images/product_images/x_secondary3.jpeg",
     },
     {
       id: 14,
@@ -222,7 +222,7 @@ exports.seed = async function (knex) {
       description:
         "Wrap yourself in vibrant hues and eclectic charm with our crocheted rainbow cardigan, a whimsical masterpiece that blends every color of the rainbow and seamlessly mixes patterns for a truly one-of-a-kind look. Handcrafted with meticulous attention to detail, this cardigan is a bold expression of individuality and style, sure to turn heads wherever you go.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
+        "http://localhost:8080/images/product_images/14_primary.jpeg",
       second_image:
         "http://localhost:8080/images/product_images/14_secondary1.jpeg",
       third_image:
@@ -238,13 +238,13 @@ exports.seed = async function (knex) {
       description:
         "Elevate your wardrobe with our short sleeve crocheted cardigan, expertly crafted using the timeless granny square stitch for a charming, bohemian vibe. Perfect for layering in any season, this versatile piece seamlessly combines comfort and style, making it a must-have addition to your collection.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
+        "http://localhost:8080/images/product_images/15_primary.jpeg",
       second_image:
-        "http://localhost:8080/images/product_images/x_secondary1.jpeg",
+        "http://localhost:8080/images/product_images/15_secondary1.jpeg",
       third_image:
-        "http://localhost:8080/images/product_images/x_secondary2.jpeg",
+        "http://localhost:8080/images/product_images/15_secondary2.jpeg",
       fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/15_secondary3.jpeg",
     },
     {
       id: 16,
@@ -270,13 +270,13 @@ exports.seed = async function (knex) {
       description:
         "Wrap yourself in understated elegance with our lemon peel stitch turtleneck sweater, meticulously crafted to exude both warmth and sophistication. Featuring the delicate texture of the lemon peel stitch, this sweater offers a timeless blend of comfort and style, perfect for cozying up on chilly days while making a refined fashion statement.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
+        "http://localhost:8080/images/product_images/17_primary.jpeg",
       second_image:
-        "http://localhost:8080/images/product_images/x_secondary1.jpeg",
+        "http://localhost:8080/images/product_images/17_secondary1.jpeg",
       third_image:
-        "http://localhost:8080/images/product_images/x_secondary2.jpeg",
+        "http://localhost:8080/images/product_images/17_secondary2.jpeg",
       fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/17_secondary3.jpeg",
     },
     {
       id: 18,
@@ -302,13 +302,13 @@ exports.seed = async function (knex) {
       description:
         "Dare to bare with our backless crochet sweater, crafted from irresistibly soft yarn for a luxurious feel against your skin. With its alluring design and sumptuous texture, this sweater effortlessly combines comfort with bold style, perfect for making a statement wherever you go.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
+        "http://localhost:8080/images/product_images/19_primary.jpeg",
       second_image:
         "http://localhost:8080/images/product_images/19_secondary1.jpeg",
       third_image:
         "http://localhost:8080/images/product_images/19_secondary2.jpeg",
       fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/19_secondary3.jpeg",
     },
     {
       id: 20,
@@ -411,13 +411,13 @@ exports.seed = async function (knex) {
       description:
         "Elevate your wardrobe with our machine-knit handmade variegated patterned sweater, blending artisanal craftsmanship with modern technology for a unique and stylish look. Crafted with precision and attention to detail, this sweater boasts vibrant variegated patterns that add a pop of color and personality to any outfit, ensuring both comfort and fashion-forward flair.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
-      second_image:
-        "http://localhost:8080/images/product_images/x_secondary1.jpeg",
-      third_image:
-        "http://localhost:8080/images/product_images/x_secondary2.jpeg",
-      fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/26_primary.jpeg",
+      // second_image:
+      //   "http://localhost:8080/images/product_images/x_secondary1.jpeg",
+      // third_image:
+      //   "http://localhost:8080/images/product_images/x_secondary2.jpeg",
+      // fourth_image:
+      //   "http://localhost:8080/images/product_images/x_secondary3.jpeg",
     },
     {
       id: 27,
@@ -427,13 +427,13 @@ exports.seed = async function (knex) {
       description:
         "Brighten up your wardrobe with our machine-knit handmade sweater, bursting with vibrant colors that add a playful and energetic flair to your look. Crafted with care and precision, this sweater combines bold hues with cozy comfort, making it the perfect statement piece for any occasion.",
       primary_image:
-        "http://localhost:8080/images/product_images/x_primary.jpeg",
+        "http://localhost:8080/images/product_images/27_primary.jpeg",
       second_image:
-        "http://localhost:8080/images/product_images/x_secondary1.jpeg",
+        "http://localhost:8080/images/product_images/27_secondary1.jpeg",
       third_image:
-        "http://localhost:8080/images/product_images/x_secondary2.jpeg",
-      fourth_image:
-        "http://localhost:8080/images/product_images/x_secondary3.jpeg",
+        "http://localhost:8080/images/product_images/27_secondary2.jpeg",
+      // fourth_image:
+      //   "http://localhost:8080/images/product_images/x_secondary3.jpeg",
     },
     {
       id: 28,
