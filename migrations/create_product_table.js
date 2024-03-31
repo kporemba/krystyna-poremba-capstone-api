@@ -2,7 +2,7 @@
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
-//setup the schema for products table
+//schema for products table
 exports.up = function (knex) {
   return knex.schema.createTable("product_details", (table) => {
     table.increments("id").primary();

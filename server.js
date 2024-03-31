@@ -17,11 +17,13 @@ app.use(express.json());
 app.use(express.static("public"));
 app.use("/", productRouter);
 
+//middleware
 app.use((req, res, next) => {
   console.log("middleware function run");
   next();
 });
 
+//stripe payment endpoint
 app.post("/create-payment-intent", async (req, res) => {
   const { amount } = req.body;
 
