@@ -27,7 +27,7 @@ Designed to fill the gap between professionalism and expensive fees in hosting a
 
 Follow the instructions below to run a local version of KP Kustoms. Ensure you have already installed node, npm and MySQL.
 
-1. Clone or download this repo and the backend repo from here:
+1. Clone or download this repo and the frontend repo from here:
    https://github.com/kporemba/krystyna-poremba-capstone
 
 ### Set up the backend
