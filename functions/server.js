@@ -1,10 +1,12 @@
 const express = require("express");
+const serverless = require("serverless-http");
 const app = express();
 const cors = require("cors");
 require("dotenv").config();
+const router = express.Router(); //
 
 const PORT = process.env.PORT ?? 8080;
-const productRouter = require("./routes/product");
+const productRouter = require("../routes/product");
 
 //test key from stripe
 const stripe = require("stripe")(
@@ -22,6 +24,12 @@ app.use((req, res, next) => {
   console.log("middleware function run");
   next();
 });
+
+router.get("/", (req, res) => {
+  res.send("App is running..");
+});
+
+app.use("/.netlify/functions/app", router);
 
 //stripe payment endpoint
 app.post("/create-payment-intent", async (req, res) => {
@@ -44,3 +52,5 @@ app.post("/create-payment-intent", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
+
+module.exports.handler = serverless(app);

@@ -6,19 +6,25 @@
   "scripts": {
     "db:migrate": "knex migrate:latest",
     "db:seed": "knex seed:run",
-    "start": "node --watch server.js"
+    "start": "node --watch server.js",
+    "build": "netlify deploy --prod"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@netlify/functions": "^2.6.0",
     "@stripe/react-stripe-js": "^2.6.2",
     "@stripe/stripe-js": "^3.1.0",
+    "@types/express": "^4.17.21",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.19.1",
+    "express": "^4.19.2",
     "express-validator": "^7.0.1",
     "knex": "^3.1.0",
     "mysql2": "^3.9.2",
+    "netlify-cli": "^17.21.1",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0",
     "stripe": "^14.23.0"
   }
 }
